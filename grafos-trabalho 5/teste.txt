@@ -1,0 +1,159 @@
+GrafoBiPartido g;
+g.a = {"Web-I", "Web-II", "Grafos"};
+g.b = {"Sala1-Manha", "Sala1-Tarde", "Sala1-Noite"};
+g.matrizAdjacencia = {
+    {false, true, false},
+    {false, true, true},
+    {true, true, false},
+};
+
+
+
+GrafoBiPartido g;
+g.a = {"Web-I", "Web-II", "Grafos", "APOO", "FMC-2"};
+g.b = {"Sala1-Manha", "Sala1-Tarde", "Sala1-Noite", "Sala2-Manha", "Sala2-Tarde" };
+g.matrizAdjacencia = {
+    {true, true, true, false, false},
+    {false, true, false, false, false},
+    {true, true, false, false, true},
+    {false, false, true, false, false},
+    {true, false, false, true, true},
+};
+
+GrafoBiPartido g;
+g.a = {"Web-I", "Web-II", "Grafos", "APOO", "FMC-2", "BIOINFO"};
+g.b = {"Sala1-Manha", "Sala1-Tarde", "Sala1-Noite", "Sala2-Manha", "Sala2-Tarde", "Sala3-Manha" };
+g.matrizAdjacencia = {
+    {true, false, true, false, true, false},
+    {false, true, false, false, false, true},
+    {true, false, false, false, false, true},
+    {true, true, true, false, false, false},
+    {true, true, true, false, false, false},
+    {true, false, false, true, false, true},
+};
+
+GrafoBiPartido g;
+g.a = {"English", "History", "Geography", "Physical Education"};
+g.b = {"Class1-Morning", "Class1-Afternoon", "Class2-Morning", "Class2-Afternoon"};
+g.matrizAdjacencia = {
+    {true, false, true, false},
+    {false, true, false, true},
+    {true, false, false, true},
+    {false, true, true, false},
+};
+
+GrafoBiPartido g;
+g.a = {"Computer Science", "Art", "Music", "Drama"};
+g.b = {"Class1-Morning", "Class1-Afternoon", "Class2-Morning", "Class2-Afternoon"};
+g.matrizAdjacencia = {
+    {true, false, false, true},
+    {false, true, true, false},
+    {true, false, false, true},
+    {false, true, true, false},
+};
+
+GrafoBiPartido g;
+g.a = {"Math", "Physics", "Chemistry", "Biology", "English"};
+g.b = {"Class1-Morning", "Class1-Afternoon", "Class2-Morning", "Class2-Afternoon", "Class3-Morning"};
+g.matrizAdjacencia = {
+    {true, false, true, false, false},
+    {false, true, false, true, false},
+    {true, false, false, false, true},
+    {false, true, false, true, false},
+    {false, false, true, false, true},
+};
+
+
+GrafoBiPartido g;
+g.a = {"Math", "Physics", "Chemistry", "Biology", "English", "History", "Geography"};
+g.b = {"Class1-Morning", "Class1-Afternoon", "Class2-Morning", "Class2-Afternoon", "Class3-Morning", "Class3-Afternoon", "Class4-Morning"};
+g.matrizAdjacencia = {
+    {true, false, true, false, false, false, false},
+    {false, true, false, true, false, false, false},
+    {true, false, false, false, true, false, false},
+    {false, true, false, true, false, false, false},
+    {false, false, true, false, false, true, false},
+    {false, false, false, false, true, false, true},
+    {false, false, false, false, false, true, false},
+};
+
+GrafoBiPartido g;
+g.a = {"Computer Science", "Art", "Music", "Drama", "Physical Education", "History", "Geography"};
+g.b = {"Class1-Morning", "Class1-Afternoon", "Class2-Morning", "Class2-Afternoon", "Class3-Morning", "Class3-Afternoon", "Class4-Morning"};
+g.matrizAdjacencia = {
+    {true, false, false, true, false, false, false},
+    {false, true, true, false, false, false, false},
+    {true, false, false, false, true, false, false},
+    {false, true, true, false, false, false, false},
+    {false, false, true, false, false, true, false},
+    {false, false, false, false, true, false, true},
+    {false, false, false, false, false, true, false},
+};
+
+GrafoBiPartido g;
+g.a = {"English", "History", "Geography", "Physical Education", "Computer Science", "Art", "Music", "Drama"};
+g.b = {"Class1-Morning", "Class1-Afternoon", "Class2-Morning", "Class2-Afternoon", "Class3-Morning", "Class3-Afternoon", "Class4-Morning", "Class4-Afternoon"};
+g.matrizAdjacencia = {
+    {true, false, true, false, false, false, false, false},
+    {false, true, false, true, false, false, false, false},
+    {true, false, false, false, true, false, false, false},
+    {false, true, false, true, false, false, false, false},
+    {false, false, true, false, false, true, false, false},
+    {false, false, false, false, true, false, true, false},
+    {false, false, false, false, false, true, false, true},
+    {false, false, false, false, false, false, true, false},
+};
+
+GrafoBiPartido g;
+g.a = {"Math", "Physics", "Chemistry", "Biology", "English", "Computer Science", "Art", "Music", "Drama"};
+g.b = {"Class1-Morning", "Class1-Afternoon", "Class2-Morning", "Class2-Afternoon", "Class3-Morning", "Class3-Afternoon", "Class4-Morning", "Class4-Afternoon", "Class5-Morning", "Class5-Afternoon"};
+g.matrizAdjacencia = {
+    {true, false, true, false, false, false, false, false, false},
+    {false, true, false, true, false, false, false, false, false},
+    {true, false, false, false, true, false, false, false, false},
+    {false, true, false, true, false, false, false, false, false},
+    {false, false, true, false, false, true, false, false, false},
+    {false, false, false, false, true, false, true, false, false},
+    {false, false, false, false, false, true, false, true, false},
+    {false, false, false, false, false, false, true, false, true},
+    {false, false, false, false, false, false, false, false, true},
+};
+
+
+GrafoBiPartido g;
+g.a = {"Math", "Physics", "Chemistry", "Biology", "English", "Computer Science", "Art", "Music", "Drama", "Sports"};
+g.b = {"Class1-Morning", "Class1-Afternoon", "Class2-Morning", "Class2-Afternoon", "Class3-Morning", "Class3-Afternoon", "Class4-Morning", "Class4-Afternoon", "Class5-Morning", "Class5-Afternoon"};
+g.matrizAdjacencia = {
+    {true, false, true, false, false, false, false, false, false, false},
+    {false, true, false, true, false, false, false, false, false, false},
+    {true, false, false, false, true, false, false, false, false, false},
+    {false, true, false, true, false, false, false, false, false, false},
+    {false, false, true, false, false, true, false, false, false, false},
+    {false, false, false, false, true, false, true, false, false, false},
+    {false, false, false, false, false, true, false, true, false, false},
+    {false, false, false, false, false, false, true, false, true, false},
+    {false, false, false, false, false, false, false, false, false, true},
+    {false, false, false, false, false, false, false, false, true, false},
+};
+
+
+
+GrafoBiPartido g;
+g.a = {"A1", "A2", "A3"};
+g.b = {"B1", "B2", "B3"};
+g.matrizAdjacencia = {
+    {true, true, true},
+    {true, true, true},
+    {true, true, true},
+};
+
+
+GrafoBiPartido g;
+g.a = {"A1", "A2"};
+g.b = {"B1", "B2"};
+g.matrizAdjacencia = {
+    {true, false},
+    {false, true},
+};
+
+
